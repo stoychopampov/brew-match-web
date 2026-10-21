@@ -1,0 +1,42 @@
+{
+  "id": "ch03_014",
+  "seed": 314,
+  "moves": 22,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "ffffffff",
+    "ffffffff",
+    "ffffffff",
+    "xxxxxxxx",
+    "xxxxxxxx",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "foam"
+    },
+    {
+      "type": "collect",
+      "tile": "extra_banana",
+      "count": 58
+    }
+  ],
+  "stars": [
+    0,
+    16600,
+    20900
+  ],
+  "tip": {
+    "bg": "Последна стъпка за Вайса — дай всичко от себе си!",
+    "en": "Final step of the Weizen — give it everything!"
+  },
+  "difficulty": 0.6
+}

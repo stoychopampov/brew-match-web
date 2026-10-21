@@ -1,0 +1,76 @@
+{
+  "_comment": "In-person rewards. Unlocked by finishing chapters or by brewery visits (QR scans) — never by buying or drinking more. One per device; 18+ ID checked at the bar. Edit freely; staff PIN is set with: dart run tool/staff_pin.dart <PIN>",
+  "staffPinSalt": "brewmatch-v1",
+  "staffPinSha256": "b8b38c8a034ec7a87909906c006a6a6bbe3ccdb080e085f3e1e52cb4d017f167",
+  "visitPack": {
+    "hopBomb": 1,
+    "stir": 1,
+    "lives": 5
+  },
+  "rewards": [
+    {
+      "id": "lager_tasting",
+      "trigger": {
+        "type": "chapter",
+        "chapter": "ch01_lager"
+      },
+      "title": {
+        "bg": "Безплатен дегустационен сет",
+        "en": "Free tasting set"
+      },
+      "details": {
+        "bg": "Покажи ваучера на бара в Ромбус.",
+        "en": "Show this voucher at the Rhombus bar."
+      },
+      "validDays": 60
+    },
+    {
+      "id": "pilsner_snack",
+      "trigger": {
+        "type": "chapter",
+        "chapter": "ch02_pilsner"
+      },
+      "title": {
+        "bg": "Мезе от кухнята",
+        "en": "A snack from the kitchen"
+      },
+      "details": {
+        "bg": "Покажи ваучера на сервитьора.",
+        "en": "Show this voucher to your server."
+      },
+      "validDays": 60
+    },
+    {
+      "id": "weizen_glass",
+      "trigger": {
+        "type": "chapter",
+        "chapter": "ch03_weizen"
+      },
+      "title": {
+        "bg": "Брандирана чаша Ромбус",
+        "en": "Rhombus branded glass"
+      },
+      "details": {
+        "bg": "Вземи я от бара.",
+        "en": "Pick it up at the bar."
+      },
+      "validDays": 90
+    },
+    {
+      "id": "visits_3_opener",
+      "trigger": {
+        "type": "visits",
+        "count": 3
+      },
+      "title": {
+        "bg": "Отварачка Ромбус",
+        "en": "Rhombus bottle opener"
+      },
+      "details": {
+        "bg": "За три посещения в пивоварната.",
+        "en": "For three visits to the brewery."
+      },
+      "validDays": 90
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ch01_007",
+  "seed": 107,
+  "moves": 18,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "score",
+      "count": 15300
+    }
+  ],
+  "stars": [
+    15300,
+    17500,
+    18800
+  ],
+  "tip": {
+    "bg": "Размени два специални елемента един с друг за мощно комбо.",
+    "en": "Swap two specials with each other for a powerful combo."
+  },
+  "difficulty": 0.3
+}

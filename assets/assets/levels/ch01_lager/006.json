@@ -1,0 +1,44 @@
+{
+  "id": "ch01_006",
+  "seed": 106,
+  "moves": 16,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "##....##",
+    "#......#",
+    "........",
+    "........",
+    "........",
+    "........",
+    "#......#",
+    "##....##"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "tile": "malt",
+      "count": 38
+    }
+  ],
+  "stars": [
+    0,
+    11600,
+    13400
+  ],
+  "tip": {
+    "bg": "5 в редица правят Златен ромб — размени го със съставка!",
+    "en": "5 in a row make a Golden Rhombus — swap it with an ingredient!"
+  },
+  "difficulty": 0.25
+}

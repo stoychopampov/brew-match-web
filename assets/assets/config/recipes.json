@@ -1,0 +1,38 @@
+{
+  "_comment": "Recipe cards unlocked by finishing a chapter. Generic style descriptions — the owner should replace them with the real Rhombus beer details. No drinking language: style, ingredients, food pairing.",
+  "recipes": {
+    "ch01_lager": {
+      "style": { "bg": "Светъл лагер", "en": "Pale Lager" },
+      "description": {
+        "bg": "Чист и свеж, отлежал дълго на студено. Малц, хмел, мая и вода — нищо повече, а всичко е в баланса.",
+        "en": "Clean and crisp, matured long and cold. Malt, hops, yeast and water — nothing more, it's all about balance."
+      },
+      "pairing": {
+        "bg": "Скара, пържени картофи, свежи салати.",
+        "en": "Grilled meats, fries, fresh salads."
+      }
+    },
+    "ch02_pilsner": {
+      "style": { "bg": "Пилзнер", "en": "Pilsner" },
+      "description": {
+        "bg": "Златист, с богата бяла пяна и изразителна хмелна горчивина от благородни хмелове.",
+        "en": "Golden, with a rich white head and a lively bitterness from noble hops."
+      },
+      "pairing": {
+        "bg": "Риба, пилешко, пикантни мезета.",
+        "en": "Fish, chicken, spicy starters."
+      }
+    },
+    "ch03_weizen": {
+      "style": { "bg": "Баварски пшеничен", "en": "Bavarian Wheat" },
+      "description": {
+        "bg": "Мътен и кадифен, с аромат на банан и карамфил, който идва от специалната мая.",
+        "en": "Hazy and smooth, with banana and clove aromas that come from a special yeast."
+      },
+      "pairing": {
+        "bg": "Бели колбаси, гевреци, лека салата.",
+        "en": "White sausages, pretzels, light salads."
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ch01_005",
+  "seed": 105,
+  "moves": 16,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "score",
+      "count": 14000
+    }
+  ],
+  "stars": [
+    14000,
+    15800,
+    17600
+  ],
+  "tip": {
+    "bg": "Г или Т форма прави Буре — то избухва 3×3.",
+    "en": "An L or T shape makes a Barrel — it bursts a 3×3 area."
+  },
+  "difficulty": 0.2
+}

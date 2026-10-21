@@ -1,0 +1,38 @@
+{
+  "id": "ch02_006",
+  "seed": 206,
+  "moves": 20,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_violet"
+  ],
+  "layout": [
+    "........",
+    "ffffffff",
+    "........",
+    "........",
+    "ffffffff",
+    "........",
+    "........",
+    "ffffffff"
+  ],
+  "goals": [
+    {
+      "type": "foam"
+    },
+    {
+      "type": "collect",
+      "tile": "extra_violet",
+      "count": 63
+    }
+  ],
+  "stars": [
+    0,
+    18500,
+    24600
+  ],
+  "difficulty": 0.35
+}

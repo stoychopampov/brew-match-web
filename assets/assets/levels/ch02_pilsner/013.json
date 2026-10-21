@@ -1,0 +1,42 @@
+{
+  "id": "ch02_013",
+  "seed": 213,
+  "moves": 20,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_violet"
+  ],
+  "layout": [
+    "ffffffff",
+    "#ffffff#",
+    "##ffff##",
+    "###ff###",
+    "###ff###",
+    "##ffff##",
+    "#ffffff#",
+    "ffffffff"
+  ],
+  "goals": [
+    {
+      "type": "foam"
+    },
+    {
+      "type": "collect",
+      "tile": "extra_violet",
+      "count": 26
+    }
+  ],
+  "stars": [
+    0,
+    6400,
+    8000
+  ],
+  "tip": {
+    "bg": "Последна стъпка за Пилзнера — изчисти цялата пяна!",
+    "en": "Final step of the Pilsner — clear all the foam!"
+  },
+  "difficulty": 0.6
+}

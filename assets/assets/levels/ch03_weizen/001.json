@@ -1,0 +1,39 @@
+{
+  "id": "ch03_001",
+  "seed": 301,
+  "moves": 16,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "yyyyyyyy",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "extra_banana",
+      "count": 46
+    }
+  ],
+  "stars": [
+    0,
+    12300,
+    15400
+  ],
+  "tip": {
+    "bg": "Каси пречат на съставките. Ход до каса я чупи.",
+    "en": "Crates get in the way. A match next to a crate breaks it."
+  },
+  "difficulty": 0.15
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "Chapter lineup = real Rhombus beers. Beer names and extra ingredients still to be confirmed by the owner. Levels live in assets/levels/<id>/001.json, 002.json, ...",
+  "chapters": [
+    {
+      "id": "ch01_lager",
+      "beer": { "bg": "Лагер", "en": "Lager" },
+      "levels": 13,
+      "extra": "extra_orange",
+      "introduces": "basics"
+    },
+    {
+      "id": "ch02_pilsner",
+      "beer": { "bg": "Пилзнер", "en": "Pilsner" },
+      "levels": 13,
+      "extra": "extra_violet",
+      "introduces": "foam"
+    },
+    {
+      "id": "ch03_weizen",
+      "beer": { "bg": "Баварски вайс", "en": "Bavarian Weizen" },
+      "levels": 14,
+      "extra": "extra_banana",
+      "introduces": "crate"
+    }
+  ]
+}

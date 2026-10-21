@@ -1,0 +1,36 @@
+{
+  "_comment": "Intro story pages and Hopko's one-liners. Family-friendly: craft, ingredients and family — never drinking.",
+  "brewery": {
+    "website": "https://rhombusbrewery.com",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rhombus+Craft+Brewery+Pazardzhik",
+    "instagram": "@rhombuscraftbrewery"
+  },
+  "intro": [
+    {
+      "bg": "Някога река Марица се наричала Ромбус. По бреговете ѝ семействата бродирали ромбове по шевиците си — знак за род и дом.",
+      "en": "Long ago, the river Maritsa was called Rhombus. Along its banks, families stitched rhombuses into their embroidery — a sign of kinship and home."
+    },
+    {
+      "bg": "В Пазарджик, до същата река, едно семейство пивовари пази стара Книга с рецепти, чиято корица е бродирана с ромбове.",
+      "en": "In Pazardzhik, beside that same river, one brewing family keeps an old Recipe Book with an embroidered cover of rhombuses."
+    },
+    {
+      "bg": "Една бурна нощ конците се разплитат и всички рецепти се разпиляват. Хмел, малц, мая и вода — навсякъде из избата!",
+      "en": "One stormy night the threads come loose and every recipe unravels. Hops, malt, yeast and water — all over the cellar!"
+    },
+    {
+      "bg": "Хопко, малко весело хмелно шишарче, търси чирак. Това си ти! Подреждай съставките, възстанови рецептите и заший отново всеки ромб.",
+      "en": "Hopko, a small cheerful hop cone, needs an apprentice. That's you! Match the ingredients, restore each recipe and stitch every rhombus back."
+    }
+  ],
+  "hopko": [
+    { "bg": "Малцът е сладък, хмелът — горчив. Заедно са семейство!", "en": "Malt is sweet, hops are bitter. Together they're family!" },
+    { "bg": "Мисля, че една мая току-що ми намигна.", "en": "I think a yeast cell just winked at me." },
+    { "bg": "Без вода няма нищо. Даже аз съм наполовина роса.", "en": "No water, no anything. Even I'm half dew." },
+    { "bg": "Търпение, чирако! И най-добрите рецепти зреят бавно.", "en": "Patience, apprentice! The best recipes take their time." },
+    { "bg": "Ако видиш Бъркалка, не се колебай — бъркай!", "en": "If you see a Mash Paddle, don't hesitate — stir!" },
+    { "bg": "Баба ми казваше: „Хубавата пяна е като хубава шевица — бяла и чиста.“", "en": "My grandma said: “Good foam is like good embroidery — white and neat.”" },
+    { "bg": "Още един ромб и книгата пак ще е цяла!", "en": "One more rhombus and the book will be whole again!" },
+    { "bg": "Бурето не се търкаля само. Е, понякога се търкаля.", "en": "A barrel doesn't roll by itself. Well, sometimes it does." }
+  ]
+}

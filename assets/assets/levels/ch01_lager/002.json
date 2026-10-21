@@ -1,0 +1,43 @@
+{
+  "id": "ch01_002",
+  "seed": 102,
+  "moves": 16,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "malt",
+      "count": 28
+    },
+    {
+      "type": "collect",
+      "tile": "water",
+      "count": 28
+    }
+  ],
+  "stars": [
+    0,
+    8800,
+    11300
+  ],
+  "tip": {
+    "bg": "Целите са горе. Събери и двете съставки!",
+    "en": "Your goals are at the top. Collect both ingredients!"
+  },
+  "difficulty": 0.05
+}

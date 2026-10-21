@@ -1,0 +1,39 @@
+{
+  "id": "ch01_003",
+  "seed": 103,
+  "moves": 16,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "yeast",
+      "count": 46
+    }
+  ],
+  "stars": [
+    0,
+    12300,
+    15600
+  ],
+  "tip": {
+    "bg": "4 в редица правят Бъркалка — тя мете цял ред или колона.",
+    "en": "4 in a row make a Mash Paddle — it sweeps a whole row or column."
+  },
+  "difficulty": 0.1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch03_003",
+  "seed": 303,
+  "moves": 18,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "yyyyyyyy",
+    "........",
+    "........",
+    "yyyyyyyy",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "score",
+      "count": 13100
+    }
+  ],
+  "stars": [
+    13100,
+    15100,
+    16200
+  ],
+  "difficulty": 0.25
+}

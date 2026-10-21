@@ -1,0 +1,41 @@
+{
+  "id": "ch01_011",
+  "seed": 111,
+  "moves": 19,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "extra_orange",
+      "count": 64
+    },
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 86
+    }
+  ],
+  "stars": [
+    0,
+    26000,
+    29500
+  ],
+  "difficulty": 0.5
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ch02_001",
+  "seed": 201,
+  "moves": 15,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_violet"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "..ffff..",
+    "..ffff..",
+    "..ffff..",
+    "..ffff..",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "foam"
+    },
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 48
+    }
+  ],
+  "stars": [
+    0,
+    14100,
+    17800
+  ],
+  "tip": {
+    "bg": "Пяна! Махни я с ход върху нея или до нея.",
+    "en": "Foam! Clear it with a match on it or right next to it."
+  },
+  "difficulty": 0.1
+}

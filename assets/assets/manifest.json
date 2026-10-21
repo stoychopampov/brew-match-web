@@ -1,0 +1,29 @@
+{
+  "_comment": "Logical art id -> asset path. null = built-in vector placeholder. Drop a PNG into assets/images/art/ and put its path here; no code changes needed. Sizes and rules: see ASSETS_NEEDED.md.",
+  "version": 2,
+  "tiles": {
+    "hop": null,
+    "malt": null,
+    "yeast": null,
+    "water": null,
+    "extra_orange": null,
+    "extra_violet": null,
+    "extra_banana": null,
+    "extra_coffee": null,
+    "extra_oak": null,
+    "extra_cherry": null
+  },
+  "specials": {
+    "mash_paddle": null,
+    "barrel": null,
+    "golden_rhombus": null
+  },
+  "obstacles": {
+    "foam": null,
+    "crate": null,
+    "ice": null,
+    "sticky_wort": null,
+    "keg": null
+  },
+  "_audio": "Sounds live in assets/audio/sfx/<name>.wav and assets/audio/music/; replace files with the same names (see ASSETS_NEEDED.md)."
+}

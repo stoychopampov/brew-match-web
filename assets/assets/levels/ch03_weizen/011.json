@@ -1,0 +1,35 @@
+{
+  "id": "ch03_011",
+  "seed": 311,
+  "moves": 20,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "##....##",
+    "##....##",
+    "........",
+    "..xxxx..",
+    "..xxxx..",
+    "........",
+    "##....##",
+    "##....##"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "extra_banana",
+      "count": 46
+    }
+  ],
+  "stars": [
+    0,
+    11300,
+    15000
+  ],
+  "difficulty": 0.55
+}

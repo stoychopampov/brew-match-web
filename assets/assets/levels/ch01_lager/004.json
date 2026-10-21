@@ -1,0 +1,39 @@
+{
+  "id": "ch01_004",
+  "seed": 104,
+  "moves": 17,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "extra_orange",
+      "count": 53
+    }
+  ],
+  "stars": [
+    0,
+    13800,
+    17700
+  ],
+  "tip": {
+    "bg": "Не виждаш ход? Изчакай малко — Хопко ще ти подскаже.",
+    "en": "Stuck? Wait a moment and Hopko will show you a move."
+  },
+  "difficulty": 0.15
+}

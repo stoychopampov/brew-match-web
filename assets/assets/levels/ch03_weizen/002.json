@@ -1,0 +1,39 @@
+{
+  "id": "ch03_002",
+  "seed": 302,
+  "moves": 19,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "..xxxx..",
+    "..xxxx..",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 38
+    }
+  ],
+  "stars": [
+    0,
+    11800,
+    14200
+  ],
+  "tip": {
+    "bg": "Здравите каси искат два удара.",
+    "en": "Sturdy crates need two hits."
+  },
+  "difficulty": 0.2
+}

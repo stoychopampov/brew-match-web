@@ -1,0 +1,38 @@
+{
+  "id": "ch01_001",
+  "seed": 101,
+  "moves": 21,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 27
+    }
+  ],
+  "stars": [
+    0,
+    7600,
+    9400
+  ],
+  "tip": {
+    "bg": "Плъзни съставка към съседна, за да наредиш 3 еднакви.",
+    "en": "Slide an ingredient to a neighbour to line up 3 of a kind."
+  },
+  "difficulty": 0.0
+}

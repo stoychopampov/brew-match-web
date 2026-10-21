@@ -1,0 +1,54 @@
+{
+  "id": "ch01_013",
+  "seed": 113,
+  "moves": 20,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_orange"
+  ],
+  "layout": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "collect",
+      "tile": "hop",
+      "count": 67
+    },
+    {
+      "type": "collect",
+      "tile": "malt",
+      "count": 67
+    },
+    {
+      "type": "collect",
+      "tile": "yeast",
+      "count": 67
+    },
+    {
+      "type": "collect",
+      "tile": "water",
+      "count": 67
+    }
+  ],
+  "stars": [
+    0,
+    19800,
+    24100
+  ],
+  "tip": {
+    "bg": "Последната стъпка от рецептата за Лагер — събери всичко!",
+    "en": "The last step of the Lager recipe — collect everything!"
+  },
+  "difficulty": 0.55
+}

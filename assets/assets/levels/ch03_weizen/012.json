@@ -1,0 +1,38 @@
+{
+  "id": "ch03_012",
+  "seed": 312,
+  "moves": 19,
+  "tiles": [
+    "hop",
+    "malt",
+    "yeast",
+    "water",
+    "extra_banana"
+  ],
+  "layout": [
+    "........",
+    "........",
+    ".xffffx.",
+    ".xffffx.",
+    ".xffffx.",
+    ".xffffx.",
+    "........",
+    "........"
+  ],
+  "goals": [
+    {
+      "type": "foam"
+    },
+    {
+      "type": "collect",
+      "tile": "yeast",
+      "count": 79
+    }
+  ],
+  "stars": [
+    0,
+    22300,
+    27100
+  ],
+  "difficulty": 0.55
+}

@@ -1,46 +1,161 @@
 {
   "_comment": "Brew Match motion tuning (v1.1). Seconds unless noted; scales are factors. Read by lib/meta/motion.dart; every key has a code fallback, so a typo here never breaks the game. Reduce motion (Settings or the phone's setting) turns off idle motion and shake and cuts particles to particles.reducedFactor.",
   "board": {
-    "swap": { "sec": 0.14, "arc": 0.12 },
-    "invalid": { "sec": 0.14, "shakePx": 0.06, "shakeSec": 0.18 },
-    "clear": { "sec": 0.16, "popScale": 1.18, "popSec": 0.06 },
-    "gravity": { "base": 0.1, "perRow": 0.055 },
-    "squash": { "x": 1.12, "y": 0.86, "inSec": 0.05, "outSec": 0.08 },
-    "select": { "scale": 1.12, "popSec": 0.12, "glowAlpha": 0.45 },
-    "hint": { "delay": 5.0, "sec": 0.45, "scale": 1.12 },
-    "flash": { "sec": 0.35 },
-    "create": { "sec": 0.18 },
-    "shuffle": { "sec": 0.45 },
-    "keg": { "sec": 0.25 },
-    "wort": { "sec": 0.3 },
-    "pause": { "combo": 0.08, "transform": 0.2, "blast": 0.1 },
-    "points": { "sec": 0.7, "rise": 0.9 },
-    "idle": { "breathAmp": 0.03, "breathPeriod": 2.6, "wiggleEvery": 9.0, "wiggleDeg": 6.0, "wiggleSec": 0.45 },
-    "combo": { "sec": 0.55, "baseSize": 0.6, "growPerStep": 0.12, "hold": 0.35 }
+    "swap": {
+      "sec": 0.14,
+      "arc": 0.12
+    },
+    "invalid": {
+      "sec": 0.14,
+      "shakePx": 0.06,
+      "shakeSec": 0.18
+    },
+    "clear": {
+      "sec": 0.16,
+      "popScale": 1.18,
+      "popSec": 0.06
+    },
+    "gravity": {
+      "base": 0.1,
+      "perRow": 0.055
+    },
+    "squash": {
+      "x": 1.12,
+      "y": 0.86,
+      "inSec": 0.05,
+      "outSec": 0.08
+    },
+    "select": {
+      "scale": 1.12,
+      "popSec": 0.12,
+      "glowAlpha": 0.45
+    },
+    "hint": {
+      "delay": 5.0,
+      "sec": 0.45,
+      "scale": 1.12
+    },
+    "flash": {
+      "sec": 0.35
+    },
+    "create": {
+      "sec": 0.18
+    },
+    "shuffle": {
+      "sec": 0.45
+    },
+    "keg": {
+      "sec": 0.25
+    },
+    "wort": {
+      "sec": 0.3
+    },
+    "pause": {
+      "combo": 0.08,
+      "transform": 0.2,
+      "blast": 0.1
+    },
+    "points": {
+      "sec": 0.7,
+      "rise": 0.9
+    },
+    "idle": {
+      "breathAmp": 0.03,
+      "breathPeriod": 2.6,
+      "wiggleEvery": 9.0,
+      "wiggleDeg": 6.0,
+      "wiggleSec": 0.45
+    },
+    "combo": {
+      "sec": 0.55,
+      "baseSize": 0.6,
+      "growPerStep": 0.12,
+      "hold": 0.35
+    }
   },
   "specials": {
-    "paddle": { "sweepSec": 0.28, "trail": 6 },
-    "barrel": { "shakeSec": 0.15, "chips": 10 },
-    "rhombus": { "orbitSec": 0.6, "sparkles": 8, "lineSec": 0.25 },
-    "comboShakePx": 5.0
+    "paddle": {
+      "sweepSec": 0.28,
+      "trail": 6
+    },
+    "barrel": {
+      "shakeSec": 0.15,
+      "chips": 10,
+      "ringSec": 0.35
+    },
+    "rhombus": {
+      "orbitSec": 0.6,
+      "sparkles": 8,
+      "lineSec": 0.25
+    },
+    "comboShakePx": 5.0,
+    "blastShakeScale": 0.6
   },
   "obstacles": {
-    "foam": { "popSec": 0.25 },
-    "crate": { "crackSec": 0.12, "splinters": 6 },
-    "ice": { "shineEvery": 4.0, "shatterSec": 0.25 },
-    "wort": { "oozeSec": 0.35 }
+    "foam": {
+      "popSec": 0.25
+    },
+    "crate": {
+      "crackSec": 0.12,
+      "splinters": 6
+    },
+    "ice": {
+      "shineEvery": 4.0,
+      "shatterSec": 0.25
+    },
+    "wort": {
+      "oozeSec": 0.35
+    }
   },
-  "hopko": { "breathAmp": 0.03, "breathPeriod": 2.8, "blinkEvery": 3.5, "blinkSec": 0.12, "swayDeg": 3.0, "moodHold": 1.6, "bubbleSec": 0.25 },
-  "ui": { "pressScale": 0.94, "pressSec": 0.08, "releaseSec": 0.18, "starDropSec": 0.45, "starStagger": 0.25, "confetti": 40 },
-  "shake": { "px": 4.0, "sec": 0.25 },
+  "hopko": {
+    "breathAmp": 0.03,
+    "breathPeriod": 2.8,
+    "blinkEvery": 3.5,
+    "blinkSec": 0.12,
+    "swayDeg": 3.0,
+    "moodHold": 1.6,
+    "bubbleSec": 0.25
+  },
+  "ui": {
+    "pressScale": 0.94,
+    "pressSec": 0.08,
+    "releaseSec": 0.18,
+    "starDropSec": 0.45,
+    "starStagger": 0.25,
+    "confetti": 40,
+    "freshPourStagger": 0.07,
+    "freshPourFlySec": 0.25
+  },
+  "shake": {
+    "px": 4.0,
+    "sec": 0.25
+  },
   "particles": {
     "maxOnScreen": 120,
     "reducedFactor": 0.3,
-    "clear": { "count": 7, "lifespan": 0.5, "speed": 160 },
-    "bubbles": { "lifespan": 0.8 },
-    "special": { "count": 4, "speed": 120 },
-    "foam": { "count": 8 },
-    "crate": { "count": 6, "speed": 220 }
+    "clear": {
+      "count": 7,
+      "lifespan": 0.5,
+      "speed": 160
+    },
+    "bubbles": {
+      "lifespan": 0.8
+    },
+    "special": {
+      "count": 4,
+      "speed": 120
+    },
+    "foam": {
+      "count": 8
+    },
+    "crate": {
+      "count": 6,
+      "speed": 220
+    }
   },
-  "art": { "paddleAngleDeg": 31.9, "paddleScale": 0.9, "barrelBadgeScale": 0.58 }
+  "art": {
+    "paddleAngleDeg": 31.9,
+    "paddleScale": 0.9,
+    "barrelBadgeScale": 0.58
+  }
 }

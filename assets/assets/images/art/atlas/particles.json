@@ -1,0 +1,32 @@
+{
+ "particle_bubble": {
+  "x": 0,
+  "y": 0,
+  "w": 64,
+  "h": 64
+ },
+ "particle_glow": {
+  "x": 64,
+  "y": 0,
+  "w": 64,
+  "h": 64
+ },
+ "particle_smoke": {
+  "x": 128,
+  "y": 0,
+  "w": 64,
+  "h": 64
+ },
+ "particle_star": {
+  "x": 192,
+  "y": 0,
+  "w": 64,
+  "h": 64
+ },
+ "particle_star_soft": {
+  "x": 256,
+  "y": 0,
+  "w": 64,
+  "h": 64
+ }
+}

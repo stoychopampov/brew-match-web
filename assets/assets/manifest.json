@@ -2,28 +2,73 @@
   "_comment": "Logical art id -> asset path. null = built-in vector placeholder. Drop a PNG into assets/images/art/ and put its path here; no code changes needed. Sizes and rules: see ASSETS_NEEDED.md.",
   "version": 2,
   "tiles": {
-    "hop": null,
-    "malt": null,
-    "yeast": null,
-    "water": null,
-    "extra_orange": null,
-    "extra_violet": null,
-    "extra_banana": null,
-    "extra_coffee": null,
-    "extra_oak": null,
-    "extra_cherry": null
+    "hop": "assets/images/art/tiles/hop.webp",
+    "malt": "assets/images/art/tiles/malt.webp",
+    "yeast": "assets/images/art/tiles/yeast.webp",
+    "water": "assets/images/art/tiles/water.webp",
+    "extra_orange": "assets/images/art/tiles/extra_orange.webp",
+    "extra_violet": "assets/images/art/tiles/extra_violet.webp",
+    "extra_banana": "assets/images/art/tiles/extra_banana.webp",
+    "extra_coffee": "assets/images/art/tiles/extra_coffee.webp",
+    "extra_oak": "assets/images/art/tiles/extra_oak.webp",
+    "extra_cherry": "assets/images/art/tiles/extra_cherry.webp"
   },
   "specials": {
-    "mash_paddle": null,
-    "barrel": null,
-    "golden_rhombus": null
+    "mash_paddle": "assets/images/art/specials/mash_paddle.webp",
+    "barrel": "assets/images/art/specials/barrel.webp",
+    "golden_rhombus": "assets/images/art/specials/golden_rhombus.webp"
   },
   "obstacles": {
     "foam": null,
-    "crate": null,
+    "crate": "assets/images/art/obstacles/crate.webp",
     "ice": null,
     "sticky_wort": null,
-    "keg": null
+    "keg": "assets/images/art/obstacles/keg.webp"
   },
-  "_audio": "Sounds live in assets/audio/sfx/<name>.wav and assets/audio/music/; replace files with the same names (see ASSETS_NEEDED.md)."
+  "_audio": "Sounds live in assets/audio/sfx/<name>.wav and assets/audio/music/; replace files with the same names (see ASSETS_NEEDED.md).",
+  "ui": {
+    "icon_back": "assets/images/art/ui/icon_back.svg",
+    "icon_bomb": "assets/images/art/ui/icon_bomb.svg",
+    "icon_book": "assets/images/art/ui/icon_book.svg",
+    "icon_calendar": "assets/images/art/ui/icon_calendar.svg",
+    "icon_check": "assets/images/art/ui/icon_check.svg",
+    "icon_close": "assets/images/art/ui/icon_close.svg",
+    "icon_gift": "assets/images/art/ui/icon_gift.svg",
+    "icon_heart": "assets/images/art/ui/icon_heart.svg",
+    "icon_language": "assets/images/art/ui/icon_language.svg",
+    "icon_lock": "assets/images/art/ui/icon_lock.svg",
+    "icon_music": "assets/images/art/ui/icon_music.svg",
+    "icon_pin": "assets/images/art/ui/icon_pin.svg",
+    "icon_play": "assets/images/art/ui/icon_play.svg",
+    "icon_plus": "assets/images/art/ui/icon_plus.svg",
+    "icon_qr": "assets/images/art/ui/icon_qr.svg",
+    "icon_settings": "assets/images/art/ui/icon_settings.svg",
+    "icon_share": "assets/images/art/ui/icon_share.svg",
+    "icon_sparkles": "assets/images/art/ui/icon_sparkles.svg",
+    "icon_star": "assets/images/art/ui/icon_star.svg",
+    "icon_star_empty": "assets/images/art/ui/icon_star_empty.svg",
+    "icon_stir": "assets/images/art/ui/icon_stir.svg",
+    "icon_trophy": "assets/images/art/ui/icon_trophy.svg",
+    "icon_vibrate": "assets/images/art/ui/icon_vibrate.svg",
+    "icon_volume": "assets/images/art/ui/icon_volume.svg"
+  },
+  "particles": {
+    "particle_bubble": "assets/images/art/particles/particle_bubble.webp",
+    "particle_glow": "assets/images/art/particles/particle_glow.webp",
+    "particle_smoke": "assets/images/art/particles/particle_smoke.webp",
+    "particle_star": "assets/images/art/particles/particle_star.webp",
+    "particle_star_soft": "assets/images/art/particles/particle_star_soft.webp"
+  },
+  "_atlas": {
+    "particles": "assets/images/art/atlas/particles.webp",
+    "tiles": "assets/images/art/atlas/tiles.webp"
+  },
+  "hopko": {
+    "hopko_idle": "assets/images/art/hopko/hopko_idle.webp",
+    "hopko_cheer": "assets/images/art/hopko/hopko_cheer.webp",
+    "hopko_sad": "assets/images/art/hopko/hopko_sad.webp",
+    "hopko_think": "assets/images/art/hopko/hopko_think.webp",
+    "hopko_worried": "assets/images/art/hopko/hopko_worried.webp",
+    "hopko_blink": "assets/images/art/hopko/hopko_blink.webp"
+  }
 }

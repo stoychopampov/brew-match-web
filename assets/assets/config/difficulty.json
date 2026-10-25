@@ -1,0 +1,44 @@
+{
+  "_comment": "Brew Match difficulty modifiers (v1.2 plan section 5). Applied in code on top of each level; level files are never edited. moves/stars are factors (1.3 = +30 %; movesAtStart = factor for the gentlest levels, blending into moves for the hardest; levelMoves = per-level factor); collect = factor for 'collect N ingredients' goals (0.85 = 15 % fewer). Normal was made easier than the levels as designed on 2026-10-25 (owner: +10 % moves, fewer items). hintDelay in seconds, null = idle hint off (hint button only); obstacleRelief = layers taken off 2-layer foam/crates; wortSpreadEvery = Sticky Wort spreads every Nth quiet move; spawnBias = chance (0..1) a new tile copies a neighbour's colour. Vouchers and QR rewards are the same on every difficulty. Tune with: dart run tool/simulate.dart",
+  "easy": {
+    "movesAtStart": 1.2,
+    "moves": 1.8,
+    "levelMoves": {
+      "ch02_013": 1.75
+    },
+    "collect": 0.8,
+    "stars": 0.85,
+    "hintDelay": 3,
+    "spawnBias": 0.1,
+    "obstacleRelief": 1,
+    "wortSpreadEvery": 2,
+    "livesRefillMinutes": 20
+  },
+  "normal": {
+    "moves": 1.1,
+    "collect": 0.85,
+    "stars": 1.0,
+    "hintDelay": 5,
+    "spawnBias": 0,
+    "obstacleRelief": 0,
+    "wortSpreadEvery": 1,
+    "livesRefillMinutes": 30
+  },
+  "hard": {
+    "movesAtStart": 0.55,
+    "moves": 1.05,
+    "levelMoves": {
+      "ch01_001": 0.4,
+      "ch01_005": 0.72,
+      "ch01_009": 0.68,
+      "ch02_003": 0.72,
+      "ch03_005": 0.78
+    },
+    "stars": 1.1,
+    "hintDelay": null,
+    "spawnBias": 0,
+    "obstacleRelief": 0,
+    "wortSpreadEvery": 1,
+    "livesRefillMinutes": 30
+  }
+}

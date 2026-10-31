@@ -1,13 +1,94 @@
 {
   "_comment": "Every third-party asset and its licence. Keep in sync with CREDITS.md. Shown on the Credits screen.",
   "credits": [
-    { "what": "Brew Match", "who": "Rhombus Craft Brewery, Pazardzhik", "licence": "© Rhombus Craft Brewery" },
-    { "what": "Rhombus logo", "who": "Rhombus Craft Brewery", "licence": "© Rhombus Craft Brewery, used with permission" },
-    { "what": "Hopko, ingredient tiles, obstacles (placeholder art)", "who": "Original vector art made for Brew Match", "licence": "© Rhombus Craft Brewery" },
-    { "what": "Rhombus embroidery motifs", "who": "Original designs inspired by Bulgarian shevitsa geometry", "licence": "© Rhombus Craft Brewery" },
-    { "what": "Sound effects and music “Cellar Ruchenitsa”", "who": "Original, synthesised for Brew Match (tool/make_sounds.py)", "licence": "© Rhombus Craft Brewery" },
-    { "what": "Oswald font", "who": "Vernon Adams, Kalapi Gajjar, Cyreal", "licence": "SIL Open Font License 1.1" },
-    { "what": "Nunito font", "who": "Vernon Adams, Cyreal, Jacques Le Bailly", "licence": "SIL Open Font License 1.1" },
-    { "what": "Flutter & Flame", "who": "Google, Blue Fire", "licence": "BSD-3-Clause / MIT" }
+    {
+      "what": "Brew Match",
+      "who": "Rhombus Craft Brewery, Pazardzhik",
+      "licence": "© Rhombus Craft Brewery"
+    },
+    {
+      "what": "Rhombus logo",
+      "who": "Rhombus Craft Brewery",
+      "licence": "© Rhombus Craft Brewery, used with permission"
+    },
+    {
+      "what": "Hopko, ingredient tiles, obstacles (placeholder art)",
+      "who": "Original vector art made for Brew Match",
+      "licence": "© Rhombus Craft Brewery"
+    },
+    {
+      "what": "Rhombus embroidery motifs",
+      "who": "Original designs inspired by Bulgarian shevitsa geometry",
+      "licence": "© Rhombus Craft Brewery"
+    },
+    {
+      "what": "Oswald font",
+      "who": "Vernon Adams, Kalapi Gajjar, Cyreal",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "what": "Nunito font",
+      "who": "Vernon Adams, Cyreal, Jacques Le Bailly",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "what": "Flutter & Flame",
+      "who": "Google, Blue Fire",
+      "licence": "BSD-3-Clause / MIT"
+    },
+    {
+      "what": "Game art",
+      "who": "Paweł Kuna via Iconify",
+      "licence": "MIT",
+      "generated": true
+    },
+    {
+      "what": "Game art",
+      "who": "Kenney (kenney.nl)",
+      "licence": "CC0-1.0",
+      "generated": true
+    },
+    {
+      "what": "Game art",
+      "who": "AI-generated with ElevenLabs (recraft-v4.1)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Game art",
+      "who": "AI-generated with ElevenLabs (flux-1-kontext)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Intro story clips",
+      "who": "AI-generated with ElevenLabs (ltx-2-fast)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Intro story clips",
+      "who": "AI-generated with ElevenLabs (kling-2.5-turbo)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Sound effects, music and ambience",
+      "who": "AI-generated with ElevenLabs (eleven_text_to_sound_v2)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Sound effects, music and ambience",
+      "who": "AI-generated with ElevenLabs (eleven_music_v2_5)",
+      "licence": "ElevenLabs plan terms",
+      "generated": true
+    },
+    {
+      "what": "Sound effects, music and ambience",
+      "who": "Original, tool/make_sounds.py (synthesised)",
+      "licence": "own work",
+      "generated": true
+    }
   ]
 }
